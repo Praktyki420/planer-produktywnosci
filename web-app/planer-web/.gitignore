@@ -7,6 +7,11 @@ obj/
 *.cache
 *.lscache
 
+# Visual Studio
+.vs/
+*.user
+*.suo
+
 # Angular
 node_modules/
 dist/
@@ -16,7 +21,3 @@ dist/
 *.db
 *.db-shm
 *.db-wal
-
-# Visual Studio
-.vs/
-*.user
