@@ -1,0 +1,23 @@
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.lscache
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Angular
+node_modules/
+dist/
+.angular/
+
+# Baza danych
+*.db
+*.db-shm
+*.db-wal

@@ -1,0 +1,38 @@
+<div class="container">
+  @if (error) {
+    <div class="error">{{ error }}</div>
+  }
+
+  @if (task) {
+    <div class="detail-card">
+      <h2>{{ task.title }}</h2>
+
+      <div class="badges">
+        <span class="badge status">{{ task.status }}</span>
+        <span class="badge priority">{{ task.priority }}</span>
+        @if (task.category) {
+          <span class="badge category">{{ task.category }}</span>
+        }
+      </div>
+
+      <p class="description">{{ task.description || 'Brak opisu' }}</p>
+
+      <div class="meta">
+        <div>📅 Termin: <strong>{{ task.dueDate | date:'dd.MM.yyyy' }}</strong></div>
+        <div>🕐 Utworzono: <strong>{{ task.createdAt | date:'dd.MM.yyyy HH:mm' }}</strong></div>
+      </div>
+
+      <div class="buttons">
+        <a [routerLink]="['/tasks/edit', task.id]">
+          <button>Edytuj</button>
+        </a>
+        <button (click)="delete()">Usuń</button>
+        <a routerLink="/tasks">
+          <button type="button">Wróć do listy</button>
+        </a>
+      </div>
+    </div>
+  } @else {
+    <p>Ładowanie...</p>
+  }
+</div>
