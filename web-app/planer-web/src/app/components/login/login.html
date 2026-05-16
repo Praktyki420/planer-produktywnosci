@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Logowanie</h2>
+  <div *ngIf="error" class="error">{{ error }}</div>
+  <input [(ngModel)]="email"    placeholder="Email"  type="email" />
+  <input [(ngModel)]="password" placeholder="Hasło"  type="password" />
+  <button (click)="login()">Zaloguj się</button>
+  <p>Nie masz konta? <a routerLink="/register">Zarejestruj się</a></p>
+</div>
