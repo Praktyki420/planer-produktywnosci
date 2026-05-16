@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanerMobile.Pages.TaskListPage"
+             Title="Moje zadania">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+ Dodaj" Clicked="btnAdd_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <VerticalStackLayout Padding="15" Spacing="10">
+
+        <Picker x:Name="pickerStatus"
+                Title="Filtruj status"
+                SelectedIndexChanged="pickerStatus_Changed">
+            <Picker.Items>
+                <x:String>Wszystkie</x:String>
+                <x:String>Nowe</x:String>
+                <x:String>W trakcie</x:String>
+                <x:String>Wykonane</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <CollectionView x:Name="collectionTasks">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="0,5" Padding="15" CornerRadius="10">
+                        <VerticalStackLayout Spacing="5">
+                            <Label Text="{Binding Title}"
+                                   FontSize="16" FontAttributes="Bold" />
+                            <Label Text="{Binding Status}"
+                                   TextColor="Gray" FontSize="13" />
+                            <Label Text="{Binding Priority}"
+                                   TextColor="Gray" FontSize="13" />
+                            <Button Text="Oznacz jako wykonane"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="btnDone_Clicked"
+                                    BackgroundColor="#512BD4"
+                                    TextColor="White"
+                                    FontSize="12" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>
