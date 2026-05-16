@@ -1,1 +1,38 @@
-<p>task-form works!</p>
+<div class="container">
+  <h2>{{ isEdit ? 'Edytuj zadanie' : 'Nowe zadanie' }}</h2>
+
+  @if (error) {
+    <div class="error">{{ error }}</div>
+  }
+
+  <label>Tytuł *</label>
+  <input [(ngModel)]="task.title" placeholder="Tytuł zadania" type="text" />
+
+  <label>Opis</label>
+  <textarea [(ngModel)]="task.description" placeholder="Opis zadania" rows="4"></textarea>
+
+  <label>Status</label>
+  <select [(ngModel)]="task.status">
+    <option>Nowe</option>
+    <option>W trakcie</option>
+    <option>Wykonane</option>
+  </select>
+
+  <label>Priorytet</label>
+  <select [(ngModel)]="task.priority">
+    <option>Niski</option>
+    <option>Średni</option>
+    <option>Wysoki</option>
+  </select>
+
+  <label>Kategoria</label>
+  <input [(ngModel)]="task.category" placeholder="np. Praca, Szkoła, Dom" type="text" />
+
+  <label>Termin</label>
+  <input [(ngModel)]="task.dueDate" type="date" />
+
+  <div class="buttons">
+    <button (click)="save()">{{ isEdit ? 'Zapisz zmiany' : 'Dodaj zadanie' }}</button>
+    <a routerLink="/tasks"><button type="button">Anuluj</button></a>
+  </div>
+</div>

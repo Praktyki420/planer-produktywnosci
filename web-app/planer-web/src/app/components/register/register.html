@@ -1,1 +1,16 @@
-<p>register works!</p>
+<div class="container">
+  <h2>Rejestracja</h2>
+
+  @if (error) {
+    <div class="error">{{ error }}</div>
+  }
+  @if (success) {
+    <div class="success">{{ success }}</div>
+  }
+
+  <input [(ngModel)]="username" placeholder="Nazwa użytkownika" type="text" />
+  <input [(ngModel)]="email"    placeholder="Email"             type="email" />
+  <input [(ngModel)]="password" placeholder="Hasło"             type="password" />
+  <button (click)="register()">Zarejestruj się</button>
+  <p>Masz już konto? <a routerLink="/login">Zaloguj się</a></p>
+</div>
