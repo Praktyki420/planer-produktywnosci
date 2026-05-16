@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\taskeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:taskeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\taskeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:taskeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|c:\\users\\hutek\\planer-produktywnosci\\desktop-app\\planerdesktop\\planerdesktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F850F41A-2EB3-4CA7-B9DA-DCFEF4AC27CB}|PlanerDesktop.csproj|solutionrelative:planerdesktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:54:56.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskEditForm.cs",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\TaskEditForm.cs",
+              "RelativeDocumentMoniker": "TaskEditForm.cs",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\TaskEditForm.cs",
+              "RelativeToolTip": "TaskEditForm.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:40:39.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskEditForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\TaskEditForm.cs",
+              "RelativeDocumentMoniker": "TaskEditForm.cs",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\TaskEditForm.cs [Projekt]",
+              "RelativeToolTip": "TaskEditForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:40:25.752Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAhwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:22:18.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\MainForm.cs [Projekt]",
+              "RelativeToolTip": "MainForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:22:00.438Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:00:36.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\Services\\ApiService.cs",
+              "RelativeToolTip": "Services\\ApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:15:29.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\Models\\TaskItem.cs",
+              "RelativeToolTip": "Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T15:46:06.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T15:38:20.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlanerDesktop",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\PlanerDesktop.csproj",
+              "RelativeDocumentMoniker": "PlanerDesktop.csproj",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\PlanerDesktop.csproj",
+              "RelativeToolTip": "PlanerDesktop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-16T15:36:15.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\hutek\\planer-produktywnosci\\desktop-app\\PlanerDesktop\\LoginForm.cs [Projekt]",
+              "RelativeToolTip": "LoginForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T14:57:51.167Z",
+              "EditorCaption": " [Projekt]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
