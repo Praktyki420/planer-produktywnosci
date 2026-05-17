@@ -35,3 +35,37 @@ zadaniami na wielu platformach z dostępem do wspólnych danych.
 | Przenośność | Backend działa na Windows, Linux, macOS |
 
 ## Diagram przypadków użycia
+Użytkownik
+├── Rejestracja
+├── Logowanie
+├── Przeglądanie zadań
+│   ├── Filtrowanie po statusie
+│   └── Filtrowanie po kategorii
+├── Dodawanie zadania
+├── Edycja zadania
+├── Usuwanie zadania
+└── Oznaczanie zadania jako wykonane
+
+## Model danych
+
+### Tabela Users
+| Pole | Typ | Opis |
+|------|-----|------|
+| Id | int | Klucz główny |
+| Username | string | Nazwa użytkownika |
+| Email | string | Adres email (unikalny) |
+| PasswordHash | string | Zahashowane hasło |
+| CreatedAt | DateTime | Data rejestracji |
+
+### Tabela Tasks
+| Pole | Typ | Opis |
+|------|-----|------|
+| Id | int | Klucz główny |
+| Title | string | Tytuł zadania |
+| Description | string | Opis zadania |
+| Status | string | Nowe / W trakcie / Wykonane |
+| Priority | string | Niski / Średni / Wysoki |
+| Category | string | Kategoria zadania |
+| DueDate | DateTime? | Termin (opcjonalny) |
+| CreatedAt | DateTime | Data utworzenia |
+| UserId | int | Klucz obcy do Users |
