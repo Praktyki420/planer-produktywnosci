@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanerMobile.Pages.AddTaskPage"
+             Title="Nowe zadanie">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="12">
+
+            <Label Text="Tytuł *" FontAttributes="Bold" />
+            <Entry x:Name="entryTitle" Placeholder="Tytuł zadania" />
+
+            <Label Text="Opis" FontAttributes="Bold" />
+            <Editor x:Name="editorDescription"
+                    Placeholder="Opis zadania"
+                    HeightRequest="100" />
+
+            <Label Text="Priorytet" FontAttributes="Bold" />
+            <Picker x:Name="pickerPriority">
+                <Picker.Items>
+                    <x:String>Niski</x:String>
+                    <x:String>Średni</x:String>
+                    <x:String>Wysoki</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Kategoria" FontAttributes="Bold" />
+            <Entry x:Name="entryCategory" Placeholder="np. Praca, Szkoła" />
+
+            <Label Text="Termin" FontAttributes="Bold" />
+            <DatePicker x:Name="datePicker" />
+
+            <Label x:Name="lblError" TextColor="Red" IsVisible="False" />
+
+            <Button Text="Dodaj zadanie"
+                    Clicked="btnSave_Clicked"
+                    BackgroundColor="#512BD4"
+                    TextColor="White" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

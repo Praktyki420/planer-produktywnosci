@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanerMobile.Pages.LoginPage"
+             Title="Logowanie">
+
+    <VerticalStackLayout Padding="30" Spacing="15" VerticalOptions="Center">
+
+        <Label Text="Planer Produktywności"
+               FontSize="24" FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Label Text="Zaloguj się do swojego konta"
+               FontSize="14" TextColor="Gray"
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="entryEmail"
+               Placeholder="Email"
+               Keyboard="Email" />
+
+        <Entry x:Name="entryPassword"
+               Placeholder="Hasło"
+               IsPassword="True" />
+
+        <Label x:Name="lblError"
+               TextColor="Red"
+               IsVisible="False" />
+
+        <Button x:Name="btnLogin"
+                Text="Zaloguj się"
+                Clicked="btnLogin_Clicked"
+                BackgroundColor="#512BD4"
+                TextColor="White" />
+
+    </VerticalStackLayout>
+</ContentPage>

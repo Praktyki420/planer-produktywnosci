@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlanerMobile.Pages.TodayPage"
+             Title="Zadania na dziś">
+
+    <VerticalStackLayout Padding="15" Spacing="10">
+
+        <Label Text="
+                     StringFormat='Dziś: {0:dd.MM.yyyy}'}"
+               xmlns:sys="clr-namespace:System;assembly=mscorlib"
+               FontSize="16" FontAttributes="Bold" />
+
+        <CollectionView x:Name="collectionToday">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="0,5" Padding="15" CornerRadius="10"
+                           BackgroundColor="#F0EDFF">
+                        <VerticalStackLayout Spacing="5">
+                            <Label Text="{Binding Title}"
+                                   FontSize="16" FontAttributes="Bold" />
+                            <Label Text="{Binding Status}" TextColor="Gray" />
+                            <Label Text="{Binding Priority}" TextColor="Gray" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Label x:Name="lblEmpty"
+               Text="Brak zadań na dziś!"
+               IsVisible="False"
+               HorizontalOptions="Center"
+               TextColor="Gray" />
+
+    </VerticalStackLayout>
+</ContentPage>
